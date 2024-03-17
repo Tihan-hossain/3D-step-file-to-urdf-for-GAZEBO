@@ -10,14 +10,18 @@ N.B. The main body of the Robot must be saved as a base_link or the robot must h
 <div align="center">
   <img src="https://github.com/Tihan-hossain/3D-step-file-to-urdf-for-GAZEBO/assets/73034571/e0070c79-a444-4070-bad2-b6e0d2f9045d" alt="Youre" width="400"/>
 </div>
+
 # Creating Components
 Make sure all the parts open as Components, not Bodies. If the files open as a body move those files to components. You can easily do this by right-clicking the mouse over the bodies and selecting *New Components/Create Components From Bodies*
+
 # Robot Orientation 
 The origin of Robot in ROS is different than the design software. In ROS the front side of the Robot in is the X-axis, Y-axis in the side, and Z-axis in the upper direction. Also, be careful with the origin point of every component those must be at One Point. How to move the origin in Fushion 360 Here the [Youtube Link](https://youtu.be/XOIHVy08mWs?si=J6FnIkxxXJNq7Lhd).
 <div align="center">
   <img src="https://github.com/Tihan-hossain/3D-step-file-to-urdf-for-GAZEBO/assets/73034571/4ca3a5bd-cf9f-442d-8778-737f55daadaa" alt="Youe" width="400"/>
 </div>
 
+# Converting to URDF
+You have to use Add-Ins URDF tools to convert your Design to URDF format [here](https://github.com/syuntoku14/fusion2urdf) is the step-by-step process is written to follow.
 
 
 
